@@ -24,7 +24,7 @@ const server = new SMTPServer({
   },
 });
 
-server.listen(25, "0.0.0.0", () => {
+server.listen(5000, "0.0.0.0", () => {
   console.log("SMTP Server Listening on 25!");
 });
 
