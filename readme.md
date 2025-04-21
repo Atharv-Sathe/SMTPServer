@@ -38,3 +38,10 @@ To : receiver@domain.com
     - **none**: No action is taken on email that fails SPF or DKIM checks. <br>
     - **quarantine**: Email that fails SPF or DKIM checks is marked as spam. <br>
     - **reject**: Email that fails SPF or DKIM checks is rejected. <br>
+
+## SMTP Server
+- SMTP (Simple Mail Transfer Protocol) is a protocol used to send email. <br>
+- SMTP is a text-based protocol that uses TCP (Transmission Control Protocol) to send email. <br>
+- SMTP uses port 25 for sending email. <br>
+- SMTP uses port 465 for secure email (SMTPS). <br>
+- SMTP uses port 587 for secure email (STARTTLS). <br>
