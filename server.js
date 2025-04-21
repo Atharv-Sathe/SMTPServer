@@ -27,3 +27,7 @@ const server = new SMTPServer({
 server.listen(25, "Vision", () => {
   console.log("SMTP Server Listening on 25!");
 });
+
+server.listen(465, "Vision", () => {
+  console.log("SMTP Server Listening on 465!");
+});
