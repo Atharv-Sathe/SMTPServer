@@ -1,0 +1,24 @@
+{
+  "name": "smtpserver",
+  "version": "1.0.0",
+  "description": "From : sender@gmail.com <br>\r To : receiver@domain.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atharv-Sathe/SMTPServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atharv-Sathe/SMTPServer/issues"
+  },
+  "homepage": "https://github.com/Atharv-Sathe/SMTPServer#readme",
+  "dependencies": {
+    "@types/smtp-server": "^3.5.10",
+    "smtp-server": "^3.13.6"
+  },
+  "type": "module"
+}
